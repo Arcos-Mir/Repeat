@@ -1,0 +1,12 @@
+.contenedor {
+    display: grid;
+    grid-gap: 20px;
+
+    /*grid-template-columns: 1fr 1fr 1fr 1fr 1fr;*/
+    grid-template-columns: repeat(6, 1fr);/*el primer valor es la cantidad de veces 
+    en que se va arepetir el segundo valor, el segundo valor es la medida del elemento
+    puede ser en pixeles (px) o en fracciones (fr)  para evitar escribir 1fr 6 veces*/
+    grid-template-rows: repeat(3, 1fr);
+
+    /*grid-template-columns: 200px repeat(4, 1fr) 200px;*/
+}
